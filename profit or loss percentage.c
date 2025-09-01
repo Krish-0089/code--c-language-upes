@@ -26,8 +26,8 @@ int main(){
     printf("selling price : ");
     scanf("%d",&selling_price);
     int profit,loss;
-    profit=(selling_price-cost_price)/10;
-    loss=(cost_price-selling_price)/10;
+    profit=((selling_price-cost_price)*100)/cost_price;
+    loss=((cost_price-selling_price)*100)/cost_price;
     if(cost_price<selling_price){
     printf("profit =%d%%",profit);        
     }
