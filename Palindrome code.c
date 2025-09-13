@@ -1,4 +1,4 @@
-Q32: Write a program to check if a number is a palindrome.
+//Q32: Write a program to check if a number is a palindrome.
 
 /*
 Sample Test Cases:
