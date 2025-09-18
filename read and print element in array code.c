@@ -17,10 +17,11 @@ Output 2:
 */
 #include<stdio.h>
 int main(){
-   int arr[2000];
+   
    int i,j,n;
-   printf("Initialise the size of array of want to use in the current array: ");
+   printf("Enter the size of array: ");
    scanf("%d",&n);
+   int arr[n];
    for(i=0;i<n;i++){
     printf("Enter the element of array:",i+1);
     scanf("%d",&arr[i]);
